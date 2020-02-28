@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+        <div id='intro'>
+            <h1>Match Maker</h1>
+            <!--<button id='start'>Start</button>-->
+            <button class="restart">Restart</button>
+            <h1 style="color: rgb(48, 189, 224)">Guesses <span id="moves"></span></h1>
+        </div>
+        <span id="timer">0</span>
+        <div>
+            <h2>Top Score: <span id="top-score">&mdash;</span></h2>
+        </div>
+        <section class="board">
+                   <div class ='card' id = 'card1' data-character='susiecarmichael'>
+                       <img  class='card-img'  src='imgs/susiecarmichael.jpg' alt="susie carmichael">
+                       <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                   </div>
+                   <div class='card' id ='card2' data-character='penny'>
+                       <img  class='card-img' src='imgs/penny.jpg' alt="penny">
+                       <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                   </div>
+                   <div class='card' id = 'card3' data-character='cleveland'>
+                       <img class='card-img' src='imgs/cleveland.png' alt="cleveland">
+                       <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                   </div>
+                   <div class='card' id = 'card4' data-character='gerald'>
+                       <img class ='card-img' src='imgs/gerald.jpg' alt="gerald">
+                       <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                   </div>
+                    <div class ='card' id= 'card5' data-character='heyarnold'>
+                        <img class ='card-img' src='imgs/heyarnold.png' alt="hey arnold">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class='card' id= 'card6' data-character='huey'>
+                        <img class ='card-img' src='imgs/huey.png' alt="huey">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class='card' id='card7' data-character='southpark'>
+                        <img class ='card-img' src="imgs/southpark.jpg" alt="southpark">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class='card' id= 'card8' data-character='staticshock'>
+                        <img class ='card-img' src="imgs/static-shock.png" alt="static shock">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class = 'card' id='card9' data-character='cleveland'>
+                        <img class ='card-img' src='imgs/cleveland.png' alt="cleveland">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class = 'card' id='card10' data-character='gerald'>
+                        <img class ='card-img' src="imgs/gerald.jpg" alt="gerald">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class = 'card' id='card11' data-character='heyarnold'>
+                        <img class='card-img' src="imgs/heyarnold.png" alt="hey arnold">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class = 'card' id='card12' data-character='huey'>
+                        <img class='card-img' src='imgs/huey.png' alt="huey">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                
+                
+                    <div class = 'card' id='card13' data-character='penny'>
+                        <img class='card-img' src='imgs/penny.jpg' alt="penny">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class = 'card' id='card14' data-character='southpark'>
+                        <img class='card-img' src='imgs/southpark.jpg' alt="southpark guy">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class = 'card' id='card15' data-character='staticshock'>
+                        <img class='card-img' src="imgs/static-shock.png" alt="static shock">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+                    <div class = 'card' id='card16' data-character='susiecarmichael'>
+                        <img class='card-img'  src="imgs/susiecarmichael.jpg" alt="susie carmichael">
+                        <img class="back" src="imgs/thinkingEmoji.png" alt="thinking emoji">
+                    </div>
+        </section> 
+        <div id="end">
+            <h1></h1>
+            <h4 id="final-score"></h4>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
